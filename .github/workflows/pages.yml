@@ -24,6 +24,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Sanidi Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Pakia ukurasa
         uses: actions/upload-pages-artifact@v3
         with:
